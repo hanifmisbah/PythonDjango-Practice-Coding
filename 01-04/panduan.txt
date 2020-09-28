@@ -1,0 +1,13 @@
+1. mengiapkan table di database:
+	-membuat model
+	-men-generate migration
+	-menjalankan migration
+2. mengambil data:
+	-import model
+	-ambil data melalui mmodel
+3. mengirim/membuat data:
+	a.) di template,
+	    buat form dengan method POST,
+	    action kodong,
+	    dan ditambah {% csrf_token %}
+

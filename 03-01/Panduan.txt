@@ -1,0 +1,9 @@
+Database Management System (DBMS) => PostgreSQL
+
+SQL (Structur Query Language)
+	-DDL (Data Definition Language)
+		-DROP
+		-CREATE
+		-ALTER
+	-DMS (Data Manipulated Language)
+	-DQL (Data Query Language)

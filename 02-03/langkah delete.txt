@@ -1,0 +1,6 @@
+DELETE an Item
+1. membuat url, path('<id>/delete/', views.delete)
+2. membuat fungsi delete di views:
+	-query untuk hapus
+	-redirect ke halaman depan
+3. mengganti tombol hapus menjadi anchor / <a></a>

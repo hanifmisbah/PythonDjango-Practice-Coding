@@ -1,0 +1,16 @@
+C:\praxis-academy\novice\03-02>python Python_Conditions.py
+(Python Identity Operators)
+<class 'int'>1
+<class 'int'>2
+Keterangan :  b is greater than a
+
+(Python Identity Operators)
+<class 'int'>2
+<class 'int'>1
+<class 'int'>3
+Keterangan :  Both conditions are True
+
+<class 'int'>25
+<class 'int'>2
+<class 'int'>3
+Keterangan :  At least one of the conditions is True

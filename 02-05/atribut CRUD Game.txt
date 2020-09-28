@@ -1,0 +1,7 @@
+latihan membuat CRUD tema 'Game'
+
+atribut:
+  -nama game
+  -genre
+  -tahun rilis
+  -developer

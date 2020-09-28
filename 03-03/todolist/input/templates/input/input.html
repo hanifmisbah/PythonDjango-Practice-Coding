@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<div class="container ">
+		  <div class="row">
+		    <div class="col-xl">
+			<form method="POST" action="" class="mt-3">
+			{% csrf_token %}
+				<div class="form-group">
+			    	<label>Name Game</label>
+				    <input type="text" class="form-control w-50 mb-3"  name="name">
+			    	<label>Genre</label>
+				    <input type="text" class="form-control w-50 mb-3"  name="genre">
+			    	<label>Released</label>
+				    <input type="text" class="form-control w-50 mb-3"  name="year">
+			    	<label>Developer</label>
+				    <input type="text" class="form-control w-50 mb-3"  name="dev">
+					<button type="submit" name="tambah" class="btn btn-primary mt-2">Tambah</button>
+			  	</div>
+			</form>
+		</div>
+	</body>
+</html>

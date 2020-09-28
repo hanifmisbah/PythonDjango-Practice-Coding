@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Detail Meal</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+		  	<nav class="navbar navbar-dark bg-dark">
+		    	<a class="navbar-brand" href="/crud3">List Meal</a>
+		  	</nav>
+			<table class="table table-hover mt-3">
+			  	<thead class="thead-light">
+			    	<tr>
+			      		<th scope="col">Merk</th>
+			      		<th scope="col">Type</th>
+			      		<th scope="col">Harga</th>
+			    	</tr>
+			  	</thead>
+			  	<tbody>
+			    	<tr>
+			      		<td>{{data.merk}}</td>
+			      		<td>{{data.type_meal}}</td>
+			      		<td>{{data.price}}</td>
+			    	</tr>
+			  	</tbody>
+			</table>
+			<a type="button" class="btn btn-primary ml-3" href="/crud3">Back</a>
+		</div>
+	</body>
+</html>

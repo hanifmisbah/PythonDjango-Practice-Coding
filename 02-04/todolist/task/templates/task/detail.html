@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Detail</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<body>
+		<table class="table mt-3 w-50">
+		  <thead>
+		    <tr>
+		        <th scope="col">#</th>
+		        <th scope="col">Task</th>
+		        <th scope="col">Status</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+			    <tr>
+			    	<td>{{forloop.counter}}</td>
+			    	<td>{{data.name}}</td>
+			    	<td>{{data.status}}</td>
+			    </tr>
+		  </tbody>
+		</table>
+		<a type="button" class="btn btn-primary ml-3" href="/">Kembali</a>
+	</body>
+</html>

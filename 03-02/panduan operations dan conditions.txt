@@ -1,0 +1,8 @@
+operator: (w3school.com/python/python_operators.asp)
+-compare
+-logic
+
+decision making: (w3school.com/python/python_conditions.asp)
+-if
+-else
+-elsif
